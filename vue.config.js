@@ -1,10 +1,8 @@
 const path = require('path')
 const CompressionWebpackPlugin = require('compression-webpack-plugin')
-const Package = require('package')(module)
 
 const env = process.env.VUE_APP_ENV
-const version = Package.version
-const outputDir = `releases-v${version}-${env}`
+const outputDir = `releases-${env}`
 
 // gzip
 const compress = new CompressionWebpackPlugin({
