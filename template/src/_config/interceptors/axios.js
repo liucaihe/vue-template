@@ -10,19 +10,6 @@
  * @returns
  */
 export const requestSuccess = res => {
-  // if (res.method === 'post') {
-  //   // console.log(res)
-  //   res.data.app_key = CON.APPKEY
-  //   // 当前时间戳
-  //   res.data.timestamp = new Date().getTime()
-  //   res.data.token = sessionStorage.getItem('wx__signin_token') ? sessionStorage.getItem('wx__signin_token') : ''
-  //   res.data.sign = global.$utils.signGenerate(res.data)
-  //   res.data = Qs.stringify(res.data)
-  // }
-
-  // CON.CONSOLE_REQUEST_ENABLE &&
-  // eslint-disable-next-line no-console
-  // console.info('requestInterceptor', `url:[${res.method}] ${res.url}`, res)
 
   return res
 }
