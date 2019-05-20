@@ -1,16 +1,9 @@
 <template>
   <div class="about">
     <h1 class="about-h1">
-      欢迎使用哒哒充电服务
+      欢迎回来
     </h1>
-
     <p>{{ msg }}</p>
-    <ul class="lang-ul-box">
-      <li>90#</li>
-      <li>92#</li>
-      <li>93#</li>
-      <li>95#</li>
-    </ul>
   </div>
 </template>
 
@@ -19,6 +12,7 @@ export default {
   name: 'About',
   data () {
     return {
+      // .env 文件定义的变量
       msg: process.env.VUE_APP_API_HOST
     }
   },
