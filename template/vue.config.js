@@ -90,6 +90,6 @@ module.exports = {
   devServer: {
     compress: true,
     open: false,
-    port: 9092
+    port: {{ hostport }}
   }
 }

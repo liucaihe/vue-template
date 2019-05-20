@@ -45,6 +45,7 @@
     "vue-cli-plugin-vconsole": "^1.0.1",
     "vue-template-compiler": "^2.6.10"
   },
+  "license": "MIT",
   "engines": {
     "node": ">= 8.0.0",
     "npm": ">= 4.0.0"

@@ -46,6 +46,13 @@ module.exports = {
       message: 'Project description',
       default: 'A Vue.js project',
     },
+    hostport: {
+      when: 'isNotTest',
+      type: 'number',
+      required: true,
+      message: 'Set the local server port',
+      default: 9092,
+    },
     autoInstall: {
       when: 'isNotTest',
       type: 'list',
