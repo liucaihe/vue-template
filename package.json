@@ -1,7 +1,6 @@
 {
   "name": "vue-template",
   "version": "0.0.1",
-  "private": true,
   "author": "LiuCaiHe <at@lang.so>",
   "scripts": {
     "serve": "vue-cli-service serve --mode development",
