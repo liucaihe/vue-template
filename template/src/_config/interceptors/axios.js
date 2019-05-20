@@ -10,7 +10,6 @@
  * @returns
  */
 export const requestSuccess = res => {
-
   return res
 }
 

@@ -75,10 +75,10 @@ To get started:
   ${yellow(
     `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}${installMsg(
       data
-    )}${lintMsg(data)}${data.autoInstall} run dev`
+    )}${lintMsg(data)}${data.autoInstall} run serve`
   )}
   
-Documentation can be found at https://vuejs-templates.github.io/webpack
+Documentation can be found at https://github.com/LiuCaiHe/vue-template
 `
   console.log(message)
 }
@@ -102,7 +102,7 @@ function lintMsg(data) {
  * @param {Object} data Data from the questionnaire
  */
 function installMsg(data) {
-  return !data.autoInstall ? 'npm install (or if using yarn: yarn)\n  ' : ''
+  return !data.autoInstall ? 'yarn (or if using npm: npm install)\n  ' : ''
 }
 
 /**

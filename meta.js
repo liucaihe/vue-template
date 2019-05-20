@@ -46,6 +46,24 @@ module.exports = {
       message: 'Project description',
       default: 'A Vue.js project',
     },
+    autoInstall: {
+      when: 'isNotTest',
+      type: 'list',
+      message:
+        'Should we run `yarn install` for you after the project has been created?',
+      choices: [
+        {
+          name: 'Yes, use Yarn (recommended)',
+          value: 'yarn',
+          short: 'yarn',
+        },
+        {
+          name: 'Yes, use NPM',
+          value: 'npm',
+          short: 'npm',
+        }
+      ],
+    },
   },
   filters: {
   },
