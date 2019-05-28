@@ -18,10 +18,10 @@ export default {
   },
   created () {
     this.$storage.set('ssss', { name: 'liucaihe' }, new Date().getTime() + 3000)
-    this.$storage.each((v, k) => {
-      console.log(k, '===', v)
-    })
-    console.log(this.$storage.get('author'))
+    // this.$storage.each((v, k) => {
+    //   console.log(k, '===', v)
+    // })
+    // console.log(this.$storage.get('author'))
   }
 }
 </script>
