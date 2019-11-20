@@ -9,7 +9,7 @@ import CON from '@conf'
 Vue.use(Router)
 
 // 注入默认配置和路由表
-let routerInstance = new Router({
+const routerInstance = new Router({
   ...CON.ROUTER_CONFIG,
   routes: CON.ROUTERS
 })

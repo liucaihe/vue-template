@@ -51,7 +51,7 @@ const _sort = (array, fn) => {
 }
 
 const isWechatEnv = () => {
-  let ua = window.navigator.userAgent.toLowerCase()
+  const ua = window.navigator.userAgent.toLowerCase()
   if (ua.indexOf('micromessenger') !== -1) return true
   else return false
 }

@@ -10,7 +10,7 @@ const filters = {
    * 格式化手机号码 334
    */
   formatPhone: (phone) => {
-    let tel = filters.trim(phone, 'g')
+    const tel = filters.trim(phone, 'g')
     return tel.substring(0, 3) + ' ' + tel.substring(3, 7) + ' ' + tel.substring(7, 11)
   },
 
