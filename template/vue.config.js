@@ -64,7 +64,7 @@ module.exports = {
       .set('@comp', path.resolve(__dirname, 'src/components'))
 
     config.externals({
-      'wx': 'wx'
+      wx: 'wx'
     })
   },
 

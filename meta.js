@@ -7,6 +7,7 @@ const {
   runLintFix,
   printMessage,
 } = require('./utils')
+
 const pkg = require('./package.json')
 
 const templateVersion = pkg.version

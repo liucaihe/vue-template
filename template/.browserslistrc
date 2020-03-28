@@ -1,5 +1,6 @@
+defaults
 > 1%
 last 2 versions
 not ie <= 8
 ios >= 8
-andorid >= 4.3
+maintained node versions
